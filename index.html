@@ -5,82 +5,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Andrea Churchville - My Art</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
 
     <main>
-        <header>
+        <header id="Home">
             <h1>My Artwork</h1>
+            <div class="nav">
+                <a class="active" href="#home">Home</a>
+                <a href="#drawings">Drawings</a>
+                <a href="#designs">Designs</a>
+                <a href="#paintings"> Paintings</a>
+            </div>
         </header>
         <article>
-            <section>
-                <p>Ever since I was a child, I've always been a creative person. I love drawing and creating designs. </p>
-                <p>Being a kid at heart some of my main influences is animation and comic books.</p>
-            </section>
-            
-            <section>
-                <h2>My Drawings</h2>
-                
-                <p>I have plenty of drawings to share! Mainly I draw portaits but I'm branching out to landscapes and animals.
-                Another thing is that I love bright colors. For traditional drawing I mainly use brush pens, alcohol markers, pencils, and watercolor markers.</p>
-                <div class="row">
-                    
-                    <div class="column">
-                        <img src="images/people.jpg" alt="artwork of people faces" width="350" height="450">
-                    </div>
-                    <div class="column">
-                        <img src="images/landscape.JPG" alt="landscape of a road" width="450" height="450">
-                    </div>
-                    <div class="column">
-                        <img src="images/zebra.jpg" alt="artwork of colorful zebras" width="450" height="450">
-                    </div>
-                    <div class="column">
-                        <img src="images/pink-portrait.jpg" alt="portrait of pink lady" width="495" height="450">
-                    </div>
-
+            <section> 
+                <div class="Introduction">
+                    <p>One of my favorite hobbies is art.  I've always been a creative person and drawing has always been a great way to express myself.
+                    Being a kid at heart, some of my main influences is animation and comic books. I also love digitial art and design, such as making icons and logos. <br>
+                    I hope to using my programming skilss to help me suceed in the graphic design field. </p>
                 </div>
             </section>
+       
             
-            <section>
-                <h2>My Design Work</h2>
+            
+           <div class="drawings" id ="drawings">
+               <h2> Drawings</h2>
+               
+               <p>I have plenty of drawings to share! Mainly I draw portaits but I'm branching out to landscapes and animals.<br>
+                Another thing is that I love bright colors. 
+                For traditional drawing I mainly use brush pens, alcohol markers, pencils, and watercolor markers.</p>
+            
+                <div class="row">
+                    <div class="column"> 
+                        <a target="_blank" href="images/people.jpg">
+                        <img src="images/people.jpg" alt="artwork of people faces" width="350" height="350">
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a target="_blank" href="images/landscape.JPG">
+                        <img src="images/landscape.JPG" alt="landscape drawing" width="350" height="350">
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a target="_blank" href="images/pink-portrait.jpg">
+                        <img src="images/pink-portrait.jpg" alt="Portrait of a lady in pink" width="350" height="350">
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a target="_blank" href="images/zebra.jpg">
+                        <img src="images/zebra.jpg" alt="zebra drawings" width="350" height="350">
+                        </a>
+                    </div>
+                </div>
+            </div>   
+            
+            <div class="designs" id="designs">
+                <h2> Design Work</h2>
                 <p>I love graphic design. I like designing icons and logos. I have knowlege in the Adobe Creative suite (Illustrator, Photoshop, Indesign, etc) but with these
-                    works I just used Adobe Illustrator.
-                </p>
+                    works I just used Adobe Illustrator.</p>
+               
                 <div class="row">
                     <div class="column">
-                        <img src="images/pokemon-posse.jpg" alt="four pokemon starters" width="350" height="350">
+                        <a target="_blank" href="images/pokemon-posse.jpg">
+                        <img src="images/pokemon-posse.jpg" alt="fanart of pokemon starters" width="350" height="350">
+                        </a>
                     </div>
                     <div class="column">
-                        <img src="images/pandaicon.png" alt="panda icon" width="350" height="350">
+                        <a target="_blank" href="images/pandaicon.png">
+                        <img src="images/pandaicon.png" alt="Panda icon" width="350" height="350">
+                        </a>
                     </div>
                     <div class="column">
-                        <img src="images/pastalapizza.png" alt="pizza shop logo" width="350" height="350">
-                    </div>
-                    <div class="column">
+                        <a target="_blank" href="images/agape-logo.png">
                         <img src="images/agape-logo.png" alt="clothing store logo" width="350" height="350">
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a target="_blank" href="images/pastalapizza.png">
+                        <img src="images/pastalapizza.png" alt="Food truck logo" width="350" height="350">
+                        </a>
                     </div>
                 </div>
-            </section>
+            </div>
             
-            <section>
-                <h2>
-                    Painting
-                </h2>
-                <p>Some painting I did while I was in college. This was a lot of work because I never tried oil painting before this class so this was quite the challenge. </p>
+            
+            <div class="painting" id="paintings">
+                <h2>Paintings</h2>
+                <p>When I was in college I took a oil painting class. This was challening because I never tried to paint before. All in all I learned to love it.<br>
+                     I don't have a lot of images but here is a couple of paintings I did.   </p>
                 <div class="row">
                     <div class="column">
-                        <img src="images/jellyfish.jpg" alt="jellyfish painting" style="width:100%">
+                        <a target="_blank" href="images/jellyfish.jpg">
+                        <img src="images/jellyfish.jpg" alt="Painting of jellyfish" width="350" height="450">
+                        </a>
                     </div>
                     <div class="column">
-                        <img src="images/house.JPG" alt="house painting" style="width:100%">
+                        <a target="_blank" href="images/house.JPG">
+                        <img src="images/house.JPG" alt="painting of a house" width="450" height="350">
+                        </a>
                     </div>
                 </div>
-            </section>
+            </div>  
+    
         </article>
-        <footer>By Andrea Churchville
-            &#dreaart24;
-        </footer>
+        <footer id="&#Drea;">By Andrea Churchville</footer>
 
 
 
